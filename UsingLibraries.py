@@ -5,8 +5,10 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(
-        description='This script can uses functions from libraries numpy, pandas, and matplotlib to create matrices, '
-                    'write them into files, get matrix dimensions, and plot data from the Iris dataset provided'
+        description='This script can uses functions from libraries numpy, '
+                    'pandas, and matplotlib to create matrices, '
+                    'write them into files, get matrix dimensions, '
+                    'and plot data from the Iris dataset provided'
     )
     parser.add_argument(
         '-nr',
@@ -39,7 +41,8 @@ def main():
     print('Matrix Creation')
     print(data_processor.get_random_matrix(args.num_rows, args.num_columns))
     print('\nWriting matrix into file')
-    data_processor.write_matrix_to_file(args.num_rows, args.num_columns, args.output_filepath)
+    data_processor.write_matrix_to_file(args.num_rows, args.num_columns,
+                                        args.output_filepath)
     print('Done, check your directory for the matrix CSV file \n \n')
 
     print('Dimensions of Iris data')

@@ -14,5 +14,3 @@ data_processor.get_file_dimensions(test_csv_data)
 
 print('Testing writing random matrix to a file')
 data_processor.write_matrix_to_file(nrow, ncol, output_file)
-
-
