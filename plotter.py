@@ -23,7 +23,10 @@ def plot_iris_data(file_path):
     ]
 
     # create box plot iris measurements
-    measurement_names = ["sepal_length", "sepal_width", "petal_width", "petal_length"]
+    measurement_names = ["sepal_length",
+                         "sepal_width",
+                         "petal_width",
+                         "petal_length"]
     plt.boxplot(iris[measurement_names], labels=measurement_names)
     plt.ylabel("cm")
     plt.savefig("iris_boxplot.png")
@@ -50,7 +53,10 @@ def plot_iris_data(file_path):
     fig.set_size_inches(10, 10)
 
     # create box plot iris measurements
-    measurement_names = ["sepal_length", "sepal_width", "petal_width", "petal_length"]
+    measurement_names = ["sepal_length",
+                         "sepal_width",
+                         "petal_width",
+                         "petal_length"]
     axes[0].boxplot(iris[measurement_names], labels=measurement_names)
     axes[0].set_ylabel("cm")
 

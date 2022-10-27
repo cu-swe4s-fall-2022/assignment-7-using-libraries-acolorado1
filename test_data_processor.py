@@ -28,7 +28,7 @@ class MyTestCase(unittest.TestCase):
             TypeError, data_processor.write_matrix_to_file, 2, 2, ["file.csv"]
         )
         self.assertRaises(
-            TypeError, data_processor.write_matrix_to_file, "1", 2, "matrix.csv"
+            TypeError, data_processor.write_matrix_to_file, "1", 2, "mat.csv"
         )
         self.assertRaises(
             ValueError, data_processor.write_matrix_to_file, 2, 0, "write.csv"
