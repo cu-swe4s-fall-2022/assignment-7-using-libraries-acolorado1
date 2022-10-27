@@ -3,7 +3,7 @@
 ## Description 
 This script shows ways of using numpy, pandas, and matplotlib libraries. Specifically, it can generate a random matrix 
 of user specified number of rows and columns, get the dimensions of a matrix, and write a matrix in a comma delimited 
-formatted file. This script is also able to create three plots using the Iris data provided.
+formatted file. This script is also able to create three plots using the Iris data provided.   
 
 ## Workflow 
 
